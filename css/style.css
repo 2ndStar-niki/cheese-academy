@@ -1,0 +1,319 @@
+/* ここから下に記載していく */
+.header {
+    display: flex;
+    flex-direction: row; /* 横並び */
+    justify-content: space-between; /* 要素間配置 */
+    align-items: center;
+    margin-right: 50px; /* 右のmarginを15pxに設定 */
+    margin-left: 50px; /* 左のmarginを25px */
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px 25px; /* 余白 */
+    font-size: 21px;
+    margin-top: 50px; /*上のmarginを10pxに設定*/
+    margin-bottom: 50px; /*下のmarginを20pxに設定*/
+}
+
+.mainvisual{
+    position: relative;
+}
+  .mainvisual_01 {
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .mainvisual_02 {
+    color: white;
+    font-size: 32px;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .title_yellow{
+    color: #ffd61a;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .headline_center{
+    color: #222222;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .content_center{
+    color: #222222;
+    font-size: 16px;
+    text-align: center;
+  }
+
+.about{
+    position: relative;
+    .about_imgs{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0px 0px;
+    }
+    .img{
+        height: 250px;
+        width: auto;
+        object-fit: cover;
+    }
+}
+
+.title_black{
+    color: #222222;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+  }
+
+.course_block{
+    background: #fafafa;
+}
+
+.block_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contents_left{
+    margin-left: 50px;
+}
+
+.title_contents{
+    color: #222222;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+.content_contents{
+    color: #222222;
+    font-size: 16px;
+    line-height: 2.0;
+}
+
+.block_right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contents_right{
+    margin-right: 50px;
+}
+
+.news{
+    text-align: center;
+}
+
+.news_contents{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.news_content{
+    width: 300px;
+}
+
+.news_content_center{
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.button{
+    color: white;
+    background: #ffd61a;
+    border-width: 0px;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.access{
+    background: #fafafa;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.access_about{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.access_about th{
+    text-align: left;
+    padding: 16px;
+}
+
+.access_about tr{
+    text-align: left;
+    padding: 16px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.contact_forms{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.name{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-between;
+
+    .input_name{
+        width: 400px;
+        height: 24px;
+    }
+}
+
+.kana{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-between;
+
+    .input_kana{
+        width: 400px;
+        height: 24px;
+    }
+}
+
+.email{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-between;
+
+    .input_email{
+        width: 400px;
+        height: 24px;
+    }
+}
+
+.inspire{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-between;
+
+    .dropdown{
+        width: 408px;
+        height: 30px;
+    }
+}
+
+.reason{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-between;
+
+    .checkboxs{
+        text-align: left;
+    }
+
+    .checkbox{
+        text-align: left;
+    }
+}
+
+.detail{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+    justify-content: space-between;
+
+    .input_detail{
+        width: 400px;
+        height: 100px;
+    }
+}
+
+.contact_form{
+    text-align: left;
+    width: auto;
+    margin-right: 40px;
+}
+
+.button_submit{
+    color: white;
+    background: #ffd61a;
+    border-width: 0px;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.footer{
+    margin-top: 80px;
+    background: #555555;
+    text-align: center;
+    padding-top: 10px;
+    height: 40px;
+
+}
+
+.footer_text{
+    color: white;
+}
+
+
+@keyframes infinity-scroll-left {
+    from {
+      transform: translateX(0);
+    }
+      to {
+      transform: translateX(-100%);
+    }
+    }
+    .scroll-infinity__wrap {
+      display: flex;
+      overflow: hidden;
+    }
+    .scroll-infinity__list {
+      display: flex;
+      list-style: none;
+      padding: 0
+    }
+    .scroll-infinity__list--left {
+      animation: infinity-scroll-left 80s infinite linear 0.5s both;
+    }
+    .scroll-infinity__item {
+      width: calc(100vw / 6);
+    }
+    .scroll-infinity__item>img {
+      width: 100%;
+    }
